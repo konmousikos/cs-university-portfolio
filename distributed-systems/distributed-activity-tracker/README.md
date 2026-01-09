@@ -64,9 +64,9 @@ The Master node also acts as the **Reducer**, combining intermediate results int
 
 
 distributed-activity-tracker/
-├── master/ → Task coordination, reduce phase, statistics
-├── worker/ → Parallel processing of GPX chunks (map phase)
-└── client/ → GPX submission and result retrieval
+   -├── master/ → Task coordination, reduce phase, statistics
+   -├── worker/ → Parallel processing of GPX chunks (map phase)
+   -└── client/ → GPX submission and result retrieval
 
 
 
