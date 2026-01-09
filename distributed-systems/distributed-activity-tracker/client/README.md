@@ -1,22 +1,23 @@
 # Client
 
-The Client component simulates a frontend application that submits activity data to the system.
+The Client component simulates a frontend application that submits activity data to the distributed system.
 
-In the context of this project, it acts as a **dummy frontend** used to test and demonstrate the backend functionality.
+In the context of this project, it acts as a **dummy frontend**, as required by the assignment specification, and is used to test and demonstrate the backend functionality.
 
 ---
 
 ## Responsibilities
 
-- Select and load a GPX file
+- Load GPX activity files from local resources
 - Establish a TCP connection with the Master node
-- Send the GPX file asynchronously
+- Send GPX data asynchronously for processing
 - Receive and display the final activity statistics
 
 ---
 
-## Communication Model
+## GPX Resources
 
-- Uses a persistent TCP socket connection
-- Operates asynchronously to avoid blocking execution
-- Waits for the Master to complete processing before receiving results
+GPX files used by the Client are stored in the `resources/` directory.
+
+These files represent recorded physical activities and are used as input data for the system during testing and demonstration.
+
