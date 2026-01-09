@@ -1,6 +1,3 @@
-# cs-university-portfolio
-A collection of university projects in Computer Science (Data Structures, Algorithms, Databases, Distributed Systems etc.).
-
 # Computer Science University Portfolio
 
 This repository contains a curated collection of my university projects and assignments developed during my studies in Computer Science.
@@ -36,5 +33,3 @@ The purpose of this repository is to showcase my academic work, programming skil
 ---
 
 ## 🗂️ Repository Structure
-
-
