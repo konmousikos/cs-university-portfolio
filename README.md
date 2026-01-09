@@ -38,10 +38,10 @@ The purpose of this repository is to showcase my academic work, programming skil
 
 cs-university-portfolio/
 │
-├── data-structures/
+├── [data-structures](data-structures/)
 ├── algorithms/
 ├── databases/
 ├── distributed-systems/
-└── miscellaneous/
+├── miscellaneous/
 
 
