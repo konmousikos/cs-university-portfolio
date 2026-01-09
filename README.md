@@ -6,16 +6,11 @@ The purpose of this repository is to showcase my academic work, programming skil
 
 ---
 
-## 📚 Covered Areas
+## Covered Areas
 
 - **Data Structures**
   - Lists, stacks, queues, trees, graphs
   - Complexity analysis and implementation
-
-- **Algorithms**
-  - Searching and sorting algorithms
-  - Greedy algorithms, dynamic programming
-  - Algorithm design and analysis
 
 - **Databases**
   - Relational database design
@@ -27,12 +22,9 @@ The purpose of this repository is to showcase my academic work, programming skil
   - Communication protocols
   - Concepts of concurrency and synchronization
 
-- **Miscellaneous**
-  - Additional coursework or small projects not fitting into the above categories
-
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 
 
@@ -41,7 +33,7 @@ cs-university-portfolio/
 ├── [data-structures](data-structures/)
 ├── algorithms/
 ├── databases/
-├── distributed-systems/
+├── [distributed-systems](distributed-systems/)
 ├── miscellaneous/
 
 
