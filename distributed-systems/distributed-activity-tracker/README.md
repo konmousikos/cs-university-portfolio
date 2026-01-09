@@ -26,6 +26,24 @@ The Master node also acts as the **Reducer**, combining intermediate results int
 
 ---
 
+## Architecture Diagram
+
+```mermaid
+graph TD
+    Client[Client Application] -->|GPX via TCP| Master[Master Node]
+
+    Master -->|Chunk 1| Worker1[Worker Node]
+    Master -->|Chunk 2| Worker2[Worker Node]
+    Master -->|Chunk N| WorkerN[Worker Node]
+
+    Worker1 -->|Intermediate Results| Master
+    Worker2 -->|Intermediate Results| Master
+    WorkerN -->|Intermediate Results| Master
+
+    Master -->|Final Activity Statistics| Client
+
+---
+
 ## Data Processing Model (MapReduce)
 
 1. The Master node splits the GPX file into chunks of *N waypoints*
