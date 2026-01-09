@@ -21,3 +21,15 @@ GPX files used by the Client are stored in the `resources/` directory.
 
 These files represent recorded physical activities and are used as input data for the system during testing and demonstration.
 
+## GPX Activity Files
+
+Each GPX file represents a **complete recorded activity (route)**.
+
+An activity consists of an ordered sequence of GPS waypoints, where each waypoint includes:
+- Latitude
+- Longitude
+- Elevation
+- Timestamp
+
+The GPX files are treated as immutable input and are processed entirely by the system during a single execution.
+
