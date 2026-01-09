@@ -1,1 +1,0 @@
-# Distributed Activity Tracker
