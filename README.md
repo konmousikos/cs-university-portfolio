@@ -29,10 +29,10 @@ The purpose of this repository is to showcase my academic work, programming skil
 
 
 cs-university-portfolio/
- - │
- - ├── [data-structures](data-structures/)
- - ├── [databases](databases/)
- - ├── [distributed-systems](distributed-systems/)
+  │
+  ├── [data-structures](data-structures/)
+  ├── [databases](databases/)
+  ├── [distributed-systems](distributed-systems/)
 
 
 
