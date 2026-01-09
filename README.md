@@ -27,7 +27,7 @@ The purpose of this repository is to showcase my academic work, programming skil
 ## Repository Structure
 
 
-
+```text
 cs-university-portfolio/
   │
   ├── [data-structures](data-structures/)
