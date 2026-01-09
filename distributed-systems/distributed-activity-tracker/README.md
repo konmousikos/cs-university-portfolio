@@ -60,7 +60,7 @@ The Master node also acts as the **Reducer**, combining intermediate results int
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 distributed-activity-tracker/
@@ -70,3 +70,28 @@ distributed-activity-tracker/
 
 
 
+
+Each component is documented in its respective directory.
+
+---
+
+## Technologies Used
+
+- Java 8 (Oracle JDK)
+- TCP Sockets
+- Multithreading
+- Object-oriented design
+
+---
+
+## Limitations
+
+- User statistics are stored **in memory only**
+- No persistent storage or database is used
+- Some global statistics features were not fully implemented
+
+---
+
+## Academic Context
+
+This project was developed for academic purposes as part of a university course on Distributed Systems.
