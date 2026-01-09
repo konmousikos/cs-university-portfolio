@@ -33,3 +33,15 @@ The purpose of this repository is to showcase my academic work, programming skil
 ---
 
 ## 🗂️ Repository Structure
+
+
+
+cs-university-portfolio/
+│
+├── data-structures/
+├── algorithms/
+├── databases/
+├── distributed-systems/
+└── miscellaneous/
+
+
