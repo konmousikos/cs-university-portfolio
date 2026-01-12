@@ -120,9 +120,3 @@ Each component is documented in its respective directory.
 - User statistics are stored **in memory only**
 - No persistent storage or database is used
 - Some global statistics features were not fully implemented
-
----
-
-## Academic Context
-
-This project was developed for academic purposes as part of a university course on Distributed Systems.
