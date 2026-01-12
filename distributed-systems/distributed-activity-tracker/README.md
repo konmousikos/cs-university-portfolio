@@ -26,6 +26,18 @@ The Master node also acts as the **Reducer**, combining intermediate results int
 
 ---
 
+## How to Run
+
+1. Start the **Master** node using the provided configuration file.
+2. Launch one or more **Worker** nodes and connect them to the Master.
+3. Run the **Client** application.
+4. The Client loads a GPX activity file from its `resources/` directory and submits it to the Master.
+5. The Master distributes the workload across Workers, performs the reduce phase, and returns the final activity statistics to the Client.
+
+> GPX files represent complete recorded activities and are processed as a single task per execution.
+
+---
+
 ## Architecture Diagram
 
 ```mermaid
@@ -100,18 +112,6 @@ Each component is documented in its respective directory.
 - TCP Sockets
 - Multithreading
 - Object-oriented design
-
----
-
-## How to Run
-
-1. Start the **Master** node using the provided configuration file.
-2. Launch one or more **Worker** nodes and connect them to the Master.
-3. Run the **Client** application.
-4. The Client loads a GPX activity file from its `resources/` directory and submits it to the Master.
-5. The Master distributes the workload across Workers, performs the reduce phase, and returns the final activity statistics to the Client.
-
-> GPX files represent complete recorded activities and are processed as a single task per execution.
 
 ---
 
