@@ -82,10 +82,10 @@ graph TD
 ## Project Structure
 
 
-distributed-activity-tracker/
-   ├── master/ → Task coordination, reduce phase, statistics
-   ├── worker/ → Parallel processing of GPX chunks (map phase)
-   └── client/ → GPX submission and result retrieval
+distributed-activity-tracker/  
+   ├── master/ → Task coordination, reduce phase, statistics  
+   ├── worker/ → Parallel processing of GPX chunks (map phase)  
+   └── client/ → GPX submission and result retrieval  
 
 
 
