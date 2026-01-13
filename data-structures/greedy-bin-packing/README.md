@@ -88,19 +88,19 @@ javac adt/*.java core/*.java utils/*.java
 
 ## How to Run
 Run the Greedy Algorithms
+```bash
 java core.Greedy path/to/input.txt
-
-
+```
 Example:
-
+```bash
 java core.Greedy data/sample_100.txt
-
+```
 ---
 
 ## Run Experimental Evaluation
-
+```bash
 java utils.ExperimentRunner data 1000
-
+```
 This will:
 
 - generate random input datasets
@@ -113,7 +113,7 @@ This will:
 
 ## Sample Data
 
-The data/ directory contains small example input files for demonstration.
+The `data/` directory contains small example input files for demonstration.
 Larger datasets are generated programmatically during experimental evaluation
 and are intentionally excluded from the repository.
 
